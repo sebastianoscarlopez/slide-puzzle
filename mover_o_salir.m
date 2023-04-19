@@ -8,4 +8,5 @@ function opcion = mover_o_salir()
     opcion = kbhit(); % puede que sea valida, pero en minúscula
     opcion = toupper(opcion); % convierte la entrada a mayúsculas
   end
+  sonido_tecla();
 end
